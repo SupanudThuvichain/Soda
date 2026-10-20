@@ -295,7 +295,8 @@ button {
 }
 
 .result-character {
-  position: relative;
+  position: absolute;
+  inset: 0;
   z-index: 1;
   display: block;
   width: 100%;
@@ -718,8 +719,8 @@ button:focus-visible {
 
   .result-character-stage,
   .result-view .intro-art {
-    width: 185px;
-    height: 215px;
+    width: 170px;
+    height: 198px;
   }
 }
 
