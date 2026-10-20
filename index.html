@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ค้นพบตัวตนของคุณผ่านรสชาติเครื่องดื่ม กับเกม What's Your Soda?"
+    />
+    <meta name="theme-color" content="#9de9f3" />
+    <title>What's Your Soda? — คุณคือโซดาแก้วไหน</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="scene">
+      <div class="sun-glow" aria-hidden="true"></div>
+      <div class="palm palm-left" aria-hidden="true">
+        <svg viewBox="0 0 280 210" fill="none">
+          <path d="M14 4c87 40 144 78 220 164M74 0c59 54 93 105 128 187M144 0c30 61 43 114 48 193M214 8c-3 64-14 116-34 173M267 39c-31 48-56 86-89 126M5 61c73 17 127 41 190 85M17 122c67 2 113 13 164 42" stroke="currentColor" stroke-width="8" stroke-linecap="round" />
+          <path d="M14 4c87 40 144 78 220 164M74 0c59 54 93 105 128 187M144 0c30 61 43 114 48 193M214 8c-3 64-14 116-34 173M267 39c-31 48-56 86-89 126M5 61c73 17 127 41 190 85M17 122c67 2 113 13 164 42" stroke="#d5f3b5" stroke-width="2" stroke-linecap="round" opacity=".9" />
+        </svg>
+      </div>
+      <div class="palm palm-right" aria-hidden="true">
+        <svg viewBox="0 0 280 210" fill="none">
+          <path d="M14 4c87 40 144 78 220 164M74 0c59 54 93 105 128 187M144 0c30 61 43 114 48 193M214 8c-3 64-14 116-34 173M267 39c-31 48-56 86-89 126M5 61c73 17 127 41 190 85M17 122c67 2 113 13 164 42" stroke="currentColor" stroke-width="8" stroke-linecap="round" />
+          <path d="M14 4c87 40 144 78 220 164M74 0c59 54 93 105 128 187M144 0c30 61 43 114 48 193M214 8c-3 64-14 116-34 173M267 39c-31 48-56 86-89 126M5 61c73 17 127 41 190 85M17 122c67 2 113 13 164 42" stroke="#d5f3b5" stroke-width="2" stroke-linecap="round" opacity=".9" />
+        </svg>
+      </div>
+      <span class="bubble bubble-one" aria-hidden="true"></span>
+      <span class="bubble bubble-two" aria-hidden="true"></span>
+      <span class="bubble bubble-three" aria-hidden="true"></span>
+      <span class="bubble bubble-four" aria-hidden="true"></span>
+      <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
+      <span class="sparkle sparkle-two" aria-hidden="true">✧</span>
+
+      <section class="game-card" aria-label="What's Your Soda">
+        <header class="brand">
+          <span class="brand-mark" aria-hidden="true">✳</span>
+          <span>BUBBLE BEACH CLUB</span>
+        </header>
+        <div id="game" aria-live="polite"></div>
+        <footer class="card-footer">
+          <span class="footer-sun" aria-hidden="true">☼</span>
+          <span>MADE FOR SUNNY DAYS</span>
+        </footer>
+      </section>
+      <div class="sand" aria-hidden="true"></div>
+    </main>
+  </body>
+</html>
